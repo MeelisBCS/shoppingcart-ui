@@ -26,6 +26,9 @@ export default {
   methods: {
     handleLoginSuccess() {
       this.isLoggedIn = true;
+
+      // Redirect to the home page
+      this.$router.push('/');
     }
   }
 };
